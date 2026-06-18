@@ -2,7 +2,7 @@ name: Daily Heat Kernel Training
 
 on:
   schedule:
-    - cron: '0 04 * * *'
+    - cron: '40 00 * * *'
   workflow_dispatch:
 
 jobs:
